@@ -12,17 +12,18 @@ class RestaurantData(object):
     '''A class to pull together the restaurant data with a number of helpful methods.'''
 
     def __init__(self):
-        
+        pass
+    
+    def CleanData(self):   
+        """ Clean  the data by removing ratings observations for restaurants that
+        aren't yet rated or have a z or p score. """
+    
         # Import the restaurant grades data. 
         try:
             self.grades = pd.read_csv('grades.csv', sep=',', error_bad_lines=False, index_col=False, dtype='unicode')
         except:
             raise InvalidInputError("Problem in reading in the restaurant data.")
-        
-    def CleanData(self):
-        """ Clean  the data by removing ratings observations for restaurants that
-        aren't yet rated or have a z or p score. """
-        
+            
         # Just Select the variables we need
         self.grades = self.grades[['GRADE','CAMIS','INSPECTION DATE', 'BORO']]
         
