@@ -1,0 +1,3 @@
+Based on the grades, it seems that for the years with comprehensive data, 2011 - 2014, the number of As being given out has increased significantly, whereas the number of Bs and Cs have stayed pretty much the same. 
+
+Of all the restaurants, only about 9 percent improved their scores. A lot of the restaurants already had 'A' ratings and did not improve or decline in quality. It would be more useful to look at only a sample, where the quality started as B or C with the first rating, to see if those have improved or declined in quality.
