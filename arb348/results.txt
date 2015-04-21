@@ -1,0 +1,35 @@
+Problem 5(B): What conclusion can you draw about grades?
+
+According to the graphs, the majority of restaurants have an A health rating,
+and that majority is increasing over time.
+
+In terms of specific periods, during Sep 2011 to Apr 2012, the number of 
+restaurants with an A rating increased rapidly. On the other hand, the number of 
+restaurants graded B and C have stayed stable by comparison from 2012 until now.
+The trends of the five Boroughs are very similar to each others, with very large 
+growth in all 5  (although the levels are still quite different across
+the Boroughs, with ~9,000 restaurants in Manhattan and only ~850 in Staten 
+Isand. 
+
+On a whole, it seems as if resutarant grades have by and large been improving 
+over the time window examined in this exercise. This could suggest that 
+restuarants are responsive to the evaluations and have since improved their 
+saftey and health standards. 
+
+Problem 6: 
+
+Some other information that could prove useful in this data:
+
+- Looking at health rating by cuisine, to see if there are any trends to be
+found which cuisines tend to have more violations. 
+
+- Growth in number of restaurant by borough, zipcode, etc.
+
+- Popularity of different types of cuisine, and how these 
+preferences change over time.
+
+While this data does contain helpful information on the health ratings of these
+restaunts, it doesn't contain information on the quality of the food served
+at these restaurants (in terms of the quailty of the cuisine itself). Becuase
+it lacks thsi information, for a given grade, it might be difficult to decide 
+on which resutarants to patronize given only this data.
