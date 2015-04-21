@@ -1,0 +1,1 @@
+NB! Before running assignment9.py DECOMPRESS dataRestaurants.csv.zip! 

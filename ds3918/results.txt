@@ -1,0 +1,11 @@
+1. There are much more A-restaurants in NYC than B- or C-restaurants. 
+
+2. There is a slight increasing trend in the number of restaurants with the grade A in NYC overall. 
+
+3. The gap between the number of A-restaurants and other types is the highest in Manhattan, followed by Brooklyn. At the same time the gap is quite small in Bronx and Queens, and close to zero in Staten Island. 
+
+4. If you want to eat out, go to Manhattan and do not go to Staten Island (just in case!). 
+
+Question 6. 
+Using these data, we can also study the frequency distribution of different cuisines in NYC in general and in its boroughs. This might be useful for both entrepreneurs who are planning to open up a restaurant in a given area, and for people trying to figure out what kind of restaurants they can find around in their borough. 
+This data set also has information about scores that judges gave to restaurants during their inspections. This might also be useful for assessing the quality of restaurants. 
