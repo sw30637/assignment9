@@ -6,7 +6,7 @@ Created on Apr 14, 2015
 '''
 
 from DataClass import RestaurantData
-from TestRestaurantGrades import GradeAllNYC, GradeByBoro
+from TestRestaurantGrades import GradeByBoro
 from GenerateGraphs import GenerateGraphs
 import sys 
 
@@ -23,11 +23,8 @@ if __name__ == "__main__":
         ''' Question four asks us to efficiently compute the sum of the function 
         over all restaurants in the data and for each of the five Boroughs, and to 
         Print out these values. Here is the code for this part of the assignment.'''
-        
-        # Produce the cumulative value for all NYC restaurants.
-        GradeAllNYC(CleanGrades)
-        
-        # Produce the cumulative value by Borough.
+
+        # Produce the cumulative value by Borough and for NYC as a whole.
         GradeByBoro(CleanGrades)
             
         # Graph the data. 

@@ -30,6 +30,6 @@ preferences change over time.
 
 While this data does contain helpful information on the health ratings of these
 restaunts, it doesn't contain information on the quality of the food served
-at these restaurants (in terms of the quailty of the cuisine itself). Becuase
-it lacks thsi information, for a given grade, it might be difficult to decide 
+at these restaurants (in terms of the quailty of the cuisine itself). Because
+it lacks this information, for a given grade, it might be difficult to decide 
 on which resutarants to patronize given only this data.

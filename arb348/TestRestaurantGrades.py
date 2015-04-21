@@ -8,20 +8,6 @@ Created on Apr 14, 2015
 
 import numpy as np 
 
-def GradeAllNYC(CleanGrades):
-    """ Generate the summed grade trend measures for all NYC."""
-   
-    Grouped = CleanGrades[['CAMIS', 'GRADE', 'INSPECTION DATE']].groupby(CleanGrades['CAMIS'])
-
-    # Generate a dictionary for the CAMIS IDs and their improvement identifiers.
-    
-    GradeResults = {}
-    for camis_id, group in Grouped:
-        
-        GradeResults.update({camis_id: test_restaurant_grades(group, camis_id)})
-    
-    print "Here is the summed grade for all NYC: " + str(sum(GradeResults.values()))
-    
 def GradeByBoro(CleanGrades):
     """ Generate the summed grade trend measures by Borough."""
    
@@ -41,6 +27,8 @@ def GradeByBoro(CleanGrades):
     print "Here is the summed grade for the 5 Boroughs: " 
     print BoroGrade
     
+    print "Here is the summed grade for all NYC: " + str(sum(BoroGrade.values()))
+  
 def test_restaurant_grades(CleanGrades, camis_id):
     """ for each restaurant, this function will 
     attempt to determine whether or not the restaurants grade
