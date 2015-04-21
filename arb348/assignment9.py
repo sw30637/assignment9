@@ -19,10 +19,10 @@ if __name__ == "__main__":
     try:
         
         ''' The RestaurantData class itself generates a object containing the 
-        restaurant data as a pandas dataframe. Here we call the CleanData method,
-        which pulls in and cleans the data (removes obs with missing values, etc.). '''
+        restaurant data as a pandas dataframe. Here we call the  CleanData method,  
+        which imports and cleans the data (removes obs with missing values, etc.). '''
         
-        CleanGrades = RestaurantData().CleanData()
+        CleanGrades = RestaurantData().ImportCleanData()
     
         ''' Question four asks us to efficiently compute the sum of the function 
         over all restaurants in the data and for each of the five Boroughs, and to 
