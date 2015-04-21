@@ -1,0 +1,3 @@
+The distributions are all similar across borough and NYC as a whole, with most of the restaraunts 
+neither improving nor declining. However, in all borough and NYC as a whole, we can see that more
+restaurant are declining in their inspection grade than improving, which can be potentially alarming.
