@@ -1,0 +1,10 @@
+Tae Kim
+Findings of Assignment 9 plots
+
+It is interesting to see plots for all 5 boroughs are pretty similar.
+Even though the qualify of large number of restaurant remain same, 
+it is shown that there are larger number of restaurants which quality are getting worse than improving with an exception of Bronx. 
+
+There are restaurants in Brooklyn and Manhattan which the ratings have been decreased three steps down, and this information and the reasons should be known to public.
+
+In final project (I am working with Kevin), we are planning to address this issue. 
