@@ -1,0 +1,60 @@
+####################################################################################################
+#
+#
+#	Author : Maha Yaqub (my1288)
+#	DS GA 1007
+#	Assignment 9
+#
+#	This module contains all the commands needed to get results
+#
+####################################################################################################
+
+# Import the built in modules needed
+import pandas as pd
+import numpy as np
+from datetime import datetime
+
+# import the modules for this project
+from DataCleanup import *
+from TestGrades import *
+from TestRestaurantGrades import *
+from PlotModule import *
+
+# Define the main function which will give the commands to run the program
+if __name__ == '__main__':
+
+	# Read in the full dataset
+	full_dataset = pd.read_csv('DOHMH_New_York_City_Restaurant_Inspection_Results.csv',sep =',', low_memory=False)
+
+	# Print out a msg for the user
+	print "The program is going through the dataset. This will take a few minutes..."
+
+	# Calculate the performance for all of NYC
+	NYC_camis = SeparateCamis(full_dataset)
+	NYC_performances = test_restaurant_grades(NYC_camis, full_dataset)
+	NYC_plot = PlotGraphs(NYC_performances, 'nyc')
+	NYC_plot.Plot_Graphs()
+	print "The sum of all the performances throughout NYC is: \n"
+	print np.sum(NYC_performances)
+
+	borough_names = ['MANHATTAN', 'BROOKLYN', 'BRONX', 'QUEENS', 'STATEN ISLAND']
+	filenames     = ['manhattan', 'brooklyn', 'bronx', 'queens', 'staten']
+
+	# Iterate through both the lists simultaneously to get the results
+	for boro, name in zip(borough_names, filenames):
+
+		print "\nCalculating performance indicators for " + name.capitalize() + "...\n"
+		
+		boro_data   = SeparateBorough(boro, full_dataset)
+		boro_camis = SeparateCamis(MN_data)
+		boro_performances = test_restaurant_grades(boro_camis, boro_data)
+		boro_plot = PlotGraphs(boro_performances, name)
+		boro_plot.Plot_Graphs()
+		boro_sum = np.sum(boro_performances)
+
+		print "The sum of all the performances in " + boro.capitalize() + " is: " + str(boro_sum)
+
+
+
+
+

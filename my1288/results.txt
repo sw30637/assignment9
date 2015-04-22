@@ -1,0 +1,15 @@
+####################################################################################################
+#
+#	Author : Maha Yaqub (my1288)
+#	DS GA 1007
+#	Assignment 9
+#	results.txt
+#	This file contains the explanation for the generated graphs
+#
+####################################################################################################
+
+
+Looking at the overall performance derived from the grades in the dataset, we see that most of the restaurants have maintained their performance over time. This is true for all of the restaurants throughout NYC and even for each of the boroughs individually. The proportion of performances that are decreasing and increasing are slightly comparable, although, the improvement factor is greater than the decline for all of NYC and its individual boroughs.
+
+There are a lot of data categories in this dataset. Agencies can use this data to figure out which restaurants are not doing well. Also they can analyze where they need to deploy their employees in order to keep up their grading since many of the grades are still pending or missing. Due to this missing data, these results can only be taken as estimates and not very accurate indicators of restaurant performance. 
+

@@ -1,0 +1,54 @@
+##############################################################
+#
+#
+#	Author : Maha Yaqub (my1288)
+#	DS GA 1007
+#	Assignment 9
+#
+#	This file will check if all the modules are present in the package for the program to run properly
+#	It will also make sure that the graphs are present 
+#
+#
+##############################################################
+
+import unittest
+import os
+import pandas as pd
+from TestRestaurantGrades import *
+from DataCleanup import *
+
+class testForModules(unittest.TestCase):
+
+	def testCompletePackage(self):
+
+		# Check for all the files needed in the Python Package
+		self.assertTrue(os.path.exists('assignment9.py'))
+		self.assertTrue(os.path.exists('TestGrades.py'))
+		self.assertTrue(os.path.exists('TestRestaurantGrades.py'))
+		self.assertTrue(os.path.exists('DataCleanup.py'))
+		self.assertTrue(os.path.exists('PlotModule.py'))
+		self.assertTrue(os.path.exists('__init__.py'))
+
+		# Check for the results.txt and csv file
+		self.assertTrue(os.path.exists('DOHMH_New_York_City_Restaurant_Inspection_Results.csv'))
+		self.assertTrue(os.path.exists('results.txt'))
+
+		# Check for all the graphs
+		self.assertTrue(os.path.exists('grade_improvement_nyc.pdf'))
+		self.assertTrue(os.path.exists('grade_improvement_manhattan.pdf'))
+		self.assertTrue(os.path.exists('grade_improvement_brooklyn.pdf'))
+		self.assertTrue(os.path.exists('grade_improvement_queens.pdf'))
+		self.assertTrue(os.path.exists('grade_improvement_bronx.pdf'))
+		self.assertTrue(os.path.exists('grade_improvement_staten.pdf'))
+
+	def testPerformanceIndicators(self):
+		
+		# This will check that the performance indicator array does not have any null value
+		dataset      = pd.read_csv('DOHMH_New_York_City_Restaurant_Inspection_Results.csv',sep =',', low_memory=False)
+		camis_id     = SeparateCamis(dataset)
+		performance  = test_restaurant_grades(camis_id, dataset)
+
+		self.assertTrue(performance is not None)
+
+if __name__ == '__main__':
+	unittest.main()
