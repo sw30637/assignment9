@@ -1,0 +1,12 @@
+Looking at the grades over time, the quality of restaurants appear to be improving. On the aggregate, there were 920 more restaurants that saw their grades improve than decline.
+Brooklyn had the best net change with Manhattan and Queens following close behind. 
+However, if you look at the way the Dept of Health grades restaurants (see pdf below), it seems to me that these grades are artificially inflated. The DOH gives the restaurant
+two attempts to score a grade. If they score less than an A in the initial test, they have another surprise screening within a month. 
+Thus, if they fail on the initial test, they could "clean up their act" (pun intended) and keep the restaurant clean for one month and pass the test then go back to their old ways.
+
+This can be seen in how scores haven't improved noticeable. If you look at the average score in a given year and look at the difference between the first score and the last score, there isn't a significant change overall. 
+Out of approximately 24k restaurants scored during the period, approximately 9k saw its score increase (quality decreased), while 10k saw its score decrease (quality increased).
+
+This suggests the rating system has been a mixed bag of sorts. 
+
+http://www.nyc.gov/html/doh/downloads/pdf/rii/how-we-score-grade.pdf
