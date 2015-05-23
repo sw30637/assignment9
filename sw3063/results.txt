@@ -1,0 +1,5 @@
+What other information can you find out using this data? 
+The data could provide information for those who wish to open a restaurant on what needs particular areas have.  The data contains information about location (address) and cuisine type along with the grade information.  For example, if you wanted to open a burger place you could use this information to see how many burger places are in the area and use it to help determine if the market could support an additional burger place.  Also, if the burger places in the area perform poorly or at least inconsistent over time if could indicate that a good burger place would do well in the area. 
+
+Is the data useful for assessing the quality of restaurants in New York City? 
+The data is useful for assessing the quality of restaurants in New York City.  The grade most given is an “A” which indicates that the restaurants are overall good.  This makes sense since I would expect that restaurants that are unsanitary and of poor quality will eventually close due to lack of patronage.
